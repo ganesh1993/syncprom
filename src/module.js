@@ -31,6 +31,10 @@ let moduleDemo = {
 
         callback(name);
         
+    },
+
+    "demo5" : function(callback){
+         let man = "shashi";
     }
 }
 

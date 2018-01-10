@@ -7,10 +7,11 @@ let main1 = function(){
     mpromise.then(function(data){
 
         console.log(data);
-        
+
          mainmodule.demo4(function(name){
              console.log(name);
          });
+         
     }).catch(function(err){
         console.log(err);
     })
